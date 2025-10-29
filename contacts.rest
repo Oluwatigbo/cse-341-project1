@@ -1,0 +1,7 @@
+# Local testing
+GET http://localhost:3000/users
+GET http://localhost:3000/users/69014bc55582682fca8bc7b7
+
+# Render testing (after deployment)
+GET https://project1-kf6u.onrender.com/users
+GET https://project1-kf6u.onrender.com/users/69014bc55582682fca8bc7b7
