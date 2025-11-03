@@ -27,7 +27,7 @@
     "/Contacts/": {
       "get": {
         "tags": [
-          "contacts"
+          "Contacts"
         ],
         "description": "",
         "produces": [
