@@ -1,9 +1,11 @@
-const express = require('express');
 const router = require('express').Router();
 
-const usersController = require('../controllers/users');
+router.use('/', require('./swagger'));
 
-router.get('/', (req, res) => { res.send('Hello World'); });
+router.get('/', (req, res) => {
+    //#swagger.tags = ['Hello World'];
+    res.send('Hello World');
+});
 
 router.use('/users', require('./users'));
 
