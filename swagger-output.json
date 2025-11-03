@@ -24,10 +24,10 @@
         }
       }
     },
-    "/users/": {
+    "/Contacts/": {
       "get": {
         "tags": [
-          "Users"
+          "contacts"
         ],
         "description": "",
         "produces": [
@@ -41,7 +41,7 @@
       },
       "post": {
         "tags": [
-          "Users"
+          "contacts"
         ],
         "description": "",
         "parameters": [
@@ -80,10 +80,10 @@
         }
       }
     },
-    "/users/{id}": {
+    "/Contacts/{id}": {
       "get": {
         "tags": [
-          "Users"
+          "contacts"
         ],
         "description": "",
         "produces": [
@@ -105,7 +105,7 @@
       },
       "put": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
@@ -151,7 +151,7 @@
       },
       "delete": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
