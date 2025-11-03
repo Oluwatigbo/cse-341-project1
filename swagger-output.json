@@ -5,7 +5,7 @@
     "description": "A simple CRUD API to manage contacts",
     "version": "1.0.0"
   },
-  "host": "https://project1-kf6u.onrender.com",
+  "host": "project1-kf6u.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
